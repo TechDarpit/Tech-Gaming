@@ -1,0 +1,125 @@
+.nevTxt {
+  font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(to right, #f32170, #ff6b08, #cf23cf, #eedd44);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+footer {
+  color: whitesmoke;
+}
+
+body {
+  background: linear-gradient(to right, #c9d6ff, #e2e2e2);
+}
+
+.copyright {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  padding: 10px;
+}
+
+.card {
+  border: 2px solid #c9d6ff;
+  border-radius: 10px;
+  box-shadow: 10px 15px 15px -5px rgba(0, 0, 0, 0.7);
+  position: left;
+  overflow: hidden;
+  margin: 20px 5px;
+}
+
+.card:hover {
+  border: 2px solid #212529;
+  opacity: 0.5;
+}
+
+.title {
+  background: linear-gradient(to right, #f32170, #ff6b08, #cf23cf, #eedd44);
+  font-size: 26px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 0px 20px;
+}
+
+/* ========================== Black Jack ========================== */
+
+.bjBackground {
+  background-image: url("Images/BJ/Background.jpg");
+  background-size: cover;
+}
+
+.flex_master,
+.bj_result {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  padding: 10px;
+  flex: 1;
+  justify-content: space-around;
+  font-size: 24px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.flex_master {
+  color: whitesmoke;
+}
+
+.flex_my_box,
+.flex_pc_box {
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin: 20px;
+  flex: 1;
+  height: 200px;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.flex_my_box img,
+.flex_pc_box img {
+  padding: 5px;
+}
+
+.bj_result {
+  color: #eedd44;
+  padding: 10px;
+}
+
+.btns {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.bj_Icon {
+  margin-left: 20px;
+  margin-right: 20px;
+  width: 65px;
+  height: 65px;
+  border: 3px solid black;
+  border-radius: 50%;
+}
+
+.bj_Icon:hover {
+  border: 3px solid #f32170;
+  opacity: 0.75;
+}
+
+.table {
+  font-size: 14px;
+}
+
+.scoreBoard {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+/* ======================= Rock Paper Seaser ======================= */
+
+.rpsBackground {
+  background-image: url("Images/BJ/Background.jpg");
+  background-size: cover;
+}
