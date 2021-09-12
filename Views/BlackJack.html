@@ -1,0 +1,45 @@
+<!-- BlackJack.html -->
+<div>
+    <div class="title">
+        <span>Black Jack</span>
+    </div>
+    <div>
+        <div class="bjBackground">
+            <div class="bj_result">
+                <span id="bj_result">Let's play</span>
+            </div>
+
+            <div class="flex_master">
+                <div class="flex_my_box" id="my_box">
+                    <h4>You : <span id="my_score">0</span></h4>
+                </div>
+                <div class="flex_pc_box" id="pc_box">
+                    <h4>Pc : <span id="pc_score">0</span></h4>
+                </div>
+            </div>
+            <div class="btns">
+                <div>
+                    <button class="btn" id="hit_btn"><img class="bj_Icon" src="Images/BJ/Hit.png" alt="Hit"></button>
+                    <button class="btn" id="stand"><img class="bj_Icon" src="Images/BJ/Stand.png" alt="Stand"></button>
+                    <button class="btn" id="deal_btn"><img class="bj_Icon" src="Images/BJ/Deal.png" alt="Deal"></button>
+                </div>
+            </div>
+            <div class="scoreBoard">
+                <table class="table table-dark table-striped">
+                    <thead class="">
+                        <th>Win</th>
+                        <th>Lose</th>
+                        <th>Draw</th>
+                    </thead>
+                    <tbody class="table-danger">
+                        <tr>
+                            <td><span id="winCount">0</span></td>
+                            <td><span id="loseCount">0</span></td>
+                            <td><span id="tieCount">0</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
