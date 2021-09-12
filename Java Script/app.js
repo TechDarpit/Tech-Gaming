@@ -8,11 +8,11 @@ TechGaming.config(function($routeProvider,$locationProvider){
     .when("/", {
         templateUrl : "Views/Home.html"
     })
-    .when("/ProductDetails/:P_id", {
+    .when("/BlackJack", {
         templateUrl : "Views/BlackJack.html",
         controller : "BlackJackController"
     })
-    .when("/AddNewProduct.html", {
+    .when("/RockPaperSeasor", {
         templateUrl : "Views/RockPaperSeasor.html"
     })
     .otherwise({
