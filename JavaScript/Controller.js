@@ -1,9 +1,9 @@
-app.controller("Home", function($scope){
+TechGaming.controller("Home", function($scope){
 
 
 });
 
-app.controller("BlackJackController", function($scope){
+TechGaming.controller("BlackJackController", function($scope){
     let Black_Jack = {
         you: { scorespan: "#my_score", div: "#my_box", score: 0 },
         dealer: { scorespan: "#pc_score", div: "#pc_box", score: 0 },
